@@ -1,1 +1,2 @@
-# legalanime
+# LegalAnime
+

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --background: #272932;
+    --buttons-secundary: #A53860;
+    --text: #C1CAD6;
+}
+html {
+    font-family: ;
+    font-size: 62.5%;
+}
+.header {
+    width: 100%;
+    height: 80px;
+}
+.header-nav {
+    display: none;
+}
+.header-user img {
+    width: 40px;
+    height: 40px;
+    color: black;
+}

@@ -1,0 +1,33 @@
+.main__intro__title {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.main__intro__info p {
+    margin-bottom: 25px;
+}
+.anime__slider {
+    height: 300px;
+    padding: 30px 0;
+    align-items: center;
+}
+.anime__slider::-webkit-scrollbar {
+    display: none;
+}
+.slider__image {
+    height: 200px;
+    width: 250px;
+}
+.slider__image {
+    transition: 450ms all;
+    transform-origin: center left;
+}
+.slider__image:hover ~ .slider__image {
+    transform: translate3d(100px, 0, 0);
+}
+.anime__slider:hover .slider__image {
+    opacity: 0.3;
+}
+.anime__slider:hover .slider__image:hover {
+    transform: scale(1.5);
+    opacity: 1;
+} 
